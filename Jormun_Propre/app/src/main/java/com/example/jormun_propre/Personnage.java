@@ -1,6 +1,6 @@
 package com.example.jormun_propre;
 
-public class Personnage
+public class Personnage // les personnages peuvent être des héros ou des mob
 {
     int maxHP;
     int actuHp;

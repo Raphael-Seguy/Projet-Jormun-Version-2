@@ -1,6 +1,6 @@
 package com.example.jormun_propre;
 
-public class Recompense
+public class Recompense //objet pouvant être des utilitaires, des ressources, des equipements
 {
     public String nom;
     public String description;

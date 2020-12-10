@@ -1,6 +1,6 @@
 package com.example.jormun_propre;
 
-public class Spell
+public class Spell // les sorts possédent des sort positif et/ou négatif
 {
     String nom;
     int duree;

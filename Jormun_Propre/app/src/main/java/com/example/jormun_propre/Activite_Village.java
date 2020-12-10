@@ -59,7 +59,7 @@ public class Activite_Village extends AppCompatActivity {
 
     private Button Btn_yesCreate;
 
-    Village vill=new Village( "ChezRolo",  5,  50);
+    Village vill=new Village( "ChezRolo",  5,  50,300,150);
     Utilisateur actuUtilisateur = new Utilisateur();
 
     private int ActuPage=0;

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Jormun_Propre.iml" filepath="$PROJECT_DIR$/Jormun_Propre.iml" group="Jormun_Propre" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Jormun_Propre/app" />
+      <module fileurl="file://$PROJECT_DIR$/Jormun_Propre.iml" filepath="$PROJECT_DIR$/Jormun_Propre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Jormun_Propre.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Jormun_Propre.app.iml" />
     </modules>
   </component>
 </project>
