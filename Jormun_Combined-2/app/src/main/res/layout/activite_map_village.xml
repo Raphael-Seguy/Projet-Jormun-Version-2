@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="	#4f4842">
+
+
+    <ImageButton
+        android:layout_width="123dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/arrow_left_logo"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="619dp"
+        android:id="@+id/back_btn"
+        android:background="@drawable/radius_btn"
+        android:text="Back "
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/batiment3"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/batiment4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/hotel_de_ville"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batiment2"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment5"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/hotel_de_ville"
+        app:layout_constraintStart_toStartOf="@+id/hotel_de_ville"
+        app:layout_constraintTop_toBottomOf="@+id/hotel_de_ville"
+        app:layout_constraintVertical_bias="0.333"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment4"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/batiment5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/batiment5"
+        app:layout_constraintTop_toBottomOf="@+id/hotel_de_ville"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment6"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/batiment5"
+        app:layout_constraintEnd_toStartOf="@+id/batiment5"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hotel_de_ville"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment7"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/batiment6"
+        app:layout_constraintEnd_toStartOf="@+id/hotel_de_ville"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/batiment0"
+        app:layout_constraintVertical_bias="0.508"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment0"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:paddingBottom="5dp"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/hotel_de_ville"
+        app:layout_constraintEnd_toStartOf="@+id/batiment1"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/batiment1"
+        app:layout_constraintVertical_bias="0.586"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment1"
+        android:layout_width="92dp"
+        android:paddingBottom="5dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/hotel_de_ville"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.549"
+        app:srcCompat="@drawable/rock" />
+
+    <ImageButton
+        android:id="@+id/batiment2"
+        android:paddingBottom="5dp"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:background="@drawable/radius_btn"
+        android:scaleType="fitCenter"
+        android:text="Button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/hotel_de_ville"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/batiment1"
+        app:layout_constraintTop_toTopOf="@+id/batiment1"
+        app:layout_constraintVertical_bias="0.586"
+        app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/Titlevillage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="#dbdfdf"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/batiment1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <ImageButton
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="611dp"
+        android:id="@+id/hotel_de_ville"
+        android:scaleType="fitCenter"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        app:srcCompat="@drawable/default_icon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
